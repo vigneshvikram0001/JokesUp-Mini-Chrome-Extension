@@ -1,0 +1,19 @@
+{
+  "name": "JokesUp",
+  "description": "Open your JokesUp, Read and enjoy those jokes text",  
+  "version": "1.45.7",
+  "manifest_version": 3,
+  "action": {
+    "default_popup": "index.html",
+    "default_title": "open the popup",
+    "default_icon": "logo192.png"
+  },
+  "icons":{
+    "128": "logo192.png"
+  },
+  "permission": ["Scripting"],
+  "host_permissions": [
+    "https://*/",
+    "http://*/"
+  ]
+}
